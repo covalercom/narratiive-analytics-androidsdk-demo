@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.narratiive.androidsdkexample.R
+import com.narratiive.narratiivesdk.NarratiiveSDK
 
 class HomeFragment : Fragment() {
 
@@ -27,5 +28,10 @@ class HomeFragment : Fragment() {
             textView.text = it
         })
         return root
+    }
+
+    override fun onResume() {
+        super.onResume()
+        NarratiiveSDK.send("/home")
     }
 }
