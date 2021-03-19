@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="narratiive_host" translatable="false">m-example.org</string>
+    <string name="narratiive_hostkey" translatable="false">9SN/cN6oEv9QO2WCE7sb2D+BLmM=</string>
+    <string name="narratiive_use_aaid" translatable="false">1</string>
+</resources>
